@@ -5,7 +5,7 @@ public class Enfermeiro extends Funcionario {
 	protected int atendimentos;
 	
 	public Enfermeiro(double salarioBase, String nome, int id, Turno turno, int atendimentos) {
-		super(salarioBas, nome, id, turno);
+		super(salarioBase, nome, id, turno);
 		this.atendimentos = atendimentos;
 	}
 	@Override
