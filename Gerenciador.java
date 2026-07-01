@@ -1,12 +1,12 @@
 package gestao;
 
-import java.util.List;
+import java.util.ArrayList;
 
 public class Gerenciador {
 	
-	private List<Funcionario> funcionarios = new Arraylist<>();
+	private List<Funcionario> funcionarios = new ArrayList<>();
 	
-	public void adicionarFuncionar(Funcionario f) {
+	public void adicionarFuncionario(Funcionario f) {
 		funcionarios.add(f);
 	}
 	public void salvarCSV();
