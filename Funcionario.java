@@ -26,6 +26,9 @@ public abstract class Funcionario {
 	public Turno getTurno() { 
 		return turno;
 	}
+	public int getId() {
+		return id;
+	}
 	public String toCSV() {
         return id + "," + 
                nome + "," + 
