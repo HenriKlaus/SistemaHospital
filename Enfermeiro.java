@@ -4,13 +4,13 @@ public class Enfermeiro extends Funcionario {
 
 	protected int atendimentos;
 	
-	public Enfermeiro(double salarioBase, int variavel, String nome, int id, Turno turno, int atendimentos) {
-		super(salarioBase, variavel, nome, id, turno);
+	public Enfermeiro(double salarioBase, String nome, int id, Turno turno, int atendimentos) {
+		super(salarioBas, nome, id, turno);
 		this.atendimentos = atendimentos;
 	}
 	@Override
 	public double calcularSalario() {
-		return salarioBase * atendimentos;
+		return salarioBase + atendimentos * 50;
 	}
 	public int getAtendimentos() {
 		return atendimentos;
